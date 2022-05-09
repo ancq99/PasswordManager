@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.register_custom {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin: 0 !important;
+  margin-bottom: -1px !important;
+}
+
+#forgot_pass {
+  float: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#forgot_pass:hover {
+  color: #444a4f !important;
+}
+
+.not-valid {
+  background-color: #ff64643d;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 45%;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.td_pass {
+  background-color: transparent !important;
+  border: 0;
+}
+
+td .input-group {
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+
+table td {
+  padding: .5rem !important;
+  vertical-align: middle !important;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1
+}
+
+.label {
+  width: 112px;
+  font-size: 85%;
+}
+
+.alert {
+  display: none;
+}
+
+.alert-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  border-radius: 0px
+}
